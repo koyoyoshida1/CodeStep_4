@@ -1,0 +1,16 @@
+#footer {
+  margin: 10% 0 2%;
+  text-align: center;
+  font-size: 0.725rem;
+
+  ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+    // margin: 1% 40%;でも良いが　justify-content: center;使った方が正確
+
+    li {
+      padding: 0 1%;
+    }
+  }
+}

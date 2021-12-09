@@ -1,0 +1,19 @@
+#photo {
+  ul {
+    display: flex;
+
+    li {
+      // calc(100%/3);でwidthの値が3等分になるように計算する。
+      // widthが割り切れない等分の時に便利
+      width: calc(100%/3);
+
+      img {
+        // object-fit: cover;で高さを固定したまま画面幅に合わせて画像を伸び縮みが可能
+        // verticla-align: bottom;で画像の下にできる隙間を消す。
+        width: 100%;
+        object-fit: cover;
+        vertical-align: bottom;
+      }
+    }
+  }
+}

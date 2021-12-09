@@ -1,0 +1,10 @@
+#recipe {
+  .recipe_item {
+    text-align: center; 
+
+    &_h2 {
+      margin-bottom: 3%;
+      font-size: 2rem;
+    }
+  }
+}

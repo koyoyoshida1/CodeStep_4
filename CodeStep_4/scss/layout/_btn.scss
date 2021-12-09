@@ -1,0 +1,14 @@
+#btn {
+
+  text-align: center;
+
+  .btn_txt {
+    display: inline-block;
+    // inline-blockでaタグに幅と高さを持たせる。
+    // paddingで調整できるようになる。
+    border: solid 1px $black;
+    font-size: 0.875rem;
+    padding: 2% 7%;
+    text-decoration: none;
+  }
+}

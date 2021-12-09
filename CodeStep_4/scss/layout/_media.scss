@@ -1,0 +1,14 @@
+@media screen and (max-width: 834px) {
+  #photo {
+    ul {
+      display: block;
+      // flex-direction　で縦並びしてもok
+      li {
+        width: 100%;
+        img {
+          height: 50vh;
+        }
+      }
+    }
+  }
+}

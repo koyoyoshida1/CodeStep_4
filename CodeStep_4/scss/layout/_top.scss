@@ -1,0 +1,9 @@
+#top img {
+  width: 100%;
+  height: 100vh;
+  // 100vhを使うことで全画面表示できる
+  object-fit: cover;
+  object-position: center top;
+  // object-fitでトリミング(画像切り取り)を行う
+  // object-position: center top; で横は中央、縦をトップに配置する。
+}
