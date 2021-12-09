@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@import "modules/color";
+@import "modules/setting";
+@import "layout/common";
+@import "layout/btn";
+@import "layout/footer";
+@import "layout/media";
+
+#service {
+  .service_item {
+    display: flex;
+    margin-bottom: 7%;
+
+    img {
+      width: 100%;
+      height: 700px;
+      object-fit: cover;
+      vertical-align: bottom;
+    }
+
+    &_list {
+      margin: 3% 5%;
+
+      h1 {
+        font-size: 1.75rem;
+      }
+
+      p {
+        margin: 5% 0;
+      }
+
+      h2 {
+        font-size: 1.25rem;
+        border-bottom: solid 1px $gray;
+        padding-bottom: 1%;
+        margin: 5% 0 2%;
+      }
+
+      dl {
+        display: flex;
+        flex-wrap: wrap;
+        // 横並びを繰り返しするための定番のやつら
+
+        dt {
+          width: 85%;
+          margin: 1% 0;
+          // ドットを下線につける
+          border-bottom: dotted 1px $gray;
+        }
+
+        dd {
+          width: 15%;
+          margin: 1% 0;
+          text-align: right;
+          border-bottom: dotted 1px $gray;
+        }
+      }
+      
+      ol{
+        margin-left: 3%;
+        li {
+          list-style: visible;
+          border-bottom: dotted 1px $gray;
+          margin: 2% 0;
+        }
+      }
+    }
+  }
+}

@@ -2,12 +2,21 @@
   #photo {
     ul {
       display: block;
-      // flex-direction　で縦並びしてもok
+      // flex-directionで縦並びしてもok
       li {
         width: 100%;
         img {
           height: 50vh;
         }
+      }
+    }
+  }
+  #service {
+    .service_item {
+      flex-direction: column;
+      // 早速使ってみた。
+      img {
+        height: auto;
       }
     }
   }
